@@ -155,13 +155,13 @@
 
 Репозиторий содержит следующие директории и файлы:
 
-* [`gtest`](https://github.com/sorogin-ivan/d-kycha/tree/master/gtest) - библиотека GoogleTest.
-* [`include`](https://github.com/sorogin-ivan/d-kycha/tree/master/include) - директория для размещения заголовочных файлов и реализаций структур данных.
-* [`sample`](https://github.com/sorogin-ivan/d-kycha/tree/master/samples) - директория для размещения исходных кодов приложений.
-* [`test`](https://github.com/sorogin-ivan/d-kycha/tree/master/test) - директория для размещения тестов.
-* [`sln`](https://github.com/sorogin-ivan/d-kycha/tree/master/sln) - директория с файлими решений (на данный момент Visual Studio 2012).
-* [`screenshots`](https://github.com/sorogin-ivan/d-kycha/tree/master/screenshots) - директория с картинками для отчета;
-* [`src`](https://github.com/sorogin-ivan/d-kycha/tree/master/src) - директория для размещения реализаций алгоритмов.
+* [`gtest`](https://github.com/sorogin-ivan/Laba4/tree/master/gtest) - библиотека GoogleTest.
+* [`include`](https://github.com/sorogin-ivan/Laba4/tree/master/include) - директория для размещения заголовочных файлов и реализаций структур данных.
+* [`sample`](https://github.com/sorogin-ivan/Laba4/tree/master/samples) - директория для размещения исходных кодов приложений.
+* [`test`](https://github.com/sorogin-ivan/Laba4/tree/master/test) - директория для размещения тестов.
+* [`sln`](https://github.com/sorogin-ivan/Laba4/tree/master/sln) - директория с файлими решений (на данный момент Visual Studio 2012).
+* [`screenshots`](https://github.com/sorogin-ivan/Laba4/tree/master/screenshots) - директория с картинками для отчета;
+* [`src`](https://github.com/sorogin-ivan/Laba4/tree/master/src) - директория для размещения реализаций алгоритмов.
 
 ###Описание структуры решения
 
