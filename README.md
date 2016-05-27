@@ -160,7 +160,7 @@
 * [`sample`](https://github.com/sorogin-ivan/d-kycha/tree/master/samples) - директория для размещения исходных кодов приложений.
 * [`test`](https://github.com/sorogin-ivan/d-kycha/tree/master/test) - директория для размещения тестов.
 * [`sln`](https://github.com/sorogin-ivan/d-kycha/tree/master/sln) - директория с файлими решений (на данный момент Visual Studio 2012).
-* [`kartinki`](https://github.com/sorogin-ivan/d-kycha/tree/master/kartinki) - директория с картинками для отчета;
+* [`screenshots`](https://github.com/sorogin-ivan/d-kycha/tree/master/screenshots) - директория с картинками для отчета;
 * [`src`](https://github.com/sorogin-ivan/d-kycha/tree/master/src) - директория для размещения реализаций алгоритмов.
 
 ###Описание структуры решения
