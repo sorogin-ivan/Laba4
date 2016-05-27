@@ -1,0 +1,12 @@
+﻿Построение начато 27.05.2016 6:11:51.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\priority_queue\priority_queue.vcxproj" в узле 5 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Release\priority_queue.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "Release\priority_queue.unsuccessfulbuild" удаляется.
+         Обращение к "Release\priority_queue.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\priority_queue\priority_queue.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.01

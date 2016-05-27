@@ -1,0 +1,66 @@
+﻿Построение начато 27.05.2016 6:33:00.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\sample_kruskal\sample_kruskal.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Release\sample_kruskal.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\samples\kruskal.cpp
+         kruskal.cpp
+     1>c:\иван\лаба!\laba4\include\graphs.h(122): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+                 c:\иван\лаба!\laba4\include\graphs.h(116): при компиляции функции-члена "void Graph<HType>::createGraph(HType,HType)" класса шаблон
+                 with
+                 [
+                     HType=typ
+                 ]
+                 ..\..\samples\kruskal.cpp(38): см. ссылку на создание экземпляров функции шаблон при компиляции "void Graph<HType>::createGraph(HType,HType)"
+                 with
+                 [
+                     HType=typ
+                 ]
+                 ..\..\samples\kruskal.cpp(25): см. ссылку на создание экземпляров класса шаблон при компиляции "Graph<HType>"
+                 with
+                 [
+                     HType=typ
+                 ]
+     1>c:\иван\лаба!\laba4\include\priority_queue.h(122): warning C4373: TQueue<TType>::push: виртуальная функция переопределяет "PQueue<TType>::push", предыдущие версии компилятора не выполняли переопределение, когда параметры отличались только квалификаторами const или volatile
+                 with
+                 [
+                     TType=typ
+                 ]
+                 c:\иван\лаба!\laba4\include\priority_queue.h(15): см. объявление "PQueue<TType>::push"
+                 with
+                 [
+                     TType=typ
+                 ]
+                 c:\иван\лаба!\laba4\include\priority_queue.h(204): см. ссылку на создание экземпляров класса шаблон при компиляции "TQueue<TType>"
+                 with
+                 [
+                     TType=typ
+                 ]
+                 c:\иван\лаба!\laba4\include\priority_queue.h(191): при компиляции функции-члена "bool make_queue<TType>::makeQueue(PQueue<TType> *&,const int,const int)" класса шаблон
+                 with
+                 [
+                     TType=typ
+                 ]
+                 ..\..\samples\kruskal.cpp(90): см. ссылку на создание экземпляров функции шаблон при компиляции "bool make_queue<TType>::makeQueue(PQueue<TType> *&,const int,const int)"
+                 with
+                 [
+                     TType=typ
+                 ]
+                 ..\..\samples\kruskal.cpp(90): см. ссылку на создание экземпляров класса шаблон при компиляции "make_queue<TType>"
+                 with
+                 [
+                     TType=typ
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\sample_kruskal.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_kruskal.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_kruskal.lib" /MACHINE:X86 /SAFESEH Release\kruskal.obj
+         Создание кода
+         Создание кода завершено
+         sample_kruskal.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\sample_kruskal.exe
+       FinalizeBuildStatus:
+         Файл "Release\sample_kruskal.unsuccessfulbuild" удаляется.
+         Обращение к "Release\sample_kruskal.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\sample_kruskal\sample_kruskal.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.08

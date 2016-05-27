@@ -1,0 +1,14 @@
+﻿Построение начато 27.05.2016 6:11:51.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\bintree\bintree.vcxproj" в узле 3 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Иван\Лаба!\Laba4\sln\Release\".
+       InitializeBuildStatus:
+         Создание "Release\bintree.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "Release\bintree.unsuccessfulbuild" удаляется.
+         Обращение к "Release\bintree.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\bintree\bintree.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.17

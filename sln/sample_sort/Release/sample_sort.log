@@ -1,0 +1,40 @@
+﻿Построение начато 27.05.2016 6:18:18.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\sample_sort\sample_sort.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Release\sample_sort.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\samples\heapsort.cpp
+         heapsort.cpp
+     1>..\..\samples\heapsort.cpp(16): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>..\..\samples\heapsort.cpp(19): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>..\..\samples\heapsort.cpp(20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\иван\лаба!\laba4\include\d_heap.h(242): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+                 c:\иван\лаба!\laba4\include\d_heap.h(238): при компиляции функции-члена "void DHeap<HType>::vyvod(void)" класса шаблон
+                 with
+                 [
+                     HType=float
+                 ]
+                 ..\..\samples\heapsort.cpp(24): см. ссылку на создание экземпляров функции шаблон при компиляции "void DHeap<HType>::vyvod(void)"
+                 with
+                 [
+                     HType=float
+                 ]
+                 ..\..\samples\heapsort.cpp(11): см. ссылку на создание экземпляров класса шаблон при компиляции "DHeap<HType>"
+                 with
+                 [
+                     HType=float
+                 ]
+     1>c:\иван\лаба!\laba4\include\d_heap.h(254): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\sample_sort.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_sort.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_sort.lib" /MACHINE:X86 /SAFESEH Release\heapsort.obj
+         Создание кода
+         Создание кода завершено
+         sample_sort.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\sample_sort.exe
+       FinalizeBuildStatus:
+         Файл "Release\sample_sort.unsuccessfulbuild" удаляется.
+         Обращение к "Release\sample_sort.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\sample_sort\sample_sort.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:13.38

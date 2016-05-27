@@ -1,0 +1,20 @@
+﻿Построение начато 27.05.2016 6:11:51.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\algoritms\algoritms.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Иван\Лаба!\Laba4\sln\Release\".
+       InitializeBuildStatus:
+         Создание "Release\algoritms.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\algoritms.cpp
+         algoritms.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\algoritms.lib" /NOLOGO /LTCG Release\algoritms.obj
+         algoritms.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\algoritms.lib
+       FinalizeBuildStatus:
+         Файл "Release\algoritms.unsuccessfulbuild" удаляется.
+         Обращение к "Release\algoritms.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\algoritms\algoritms.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.82

@@ -1,0 +1,49 @@
+﻿Построение начато 27.05.2016 6:11:56.
+     1>Проект "C:\Иван\Лаба!\Laba4\sln\tests\tests.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Release\tests.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src /I..\..\gtest /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_bintree.cpp ..\..\test\test_dheap.cpp ..\..\test\test_graph.cpp ..\..\test\test_main.cpp ..\..\test\test_queue.cpp ..\..\test\test_set.cpp ..\..\test\test_table.cpp
+         test_bintree.cpp
+         test_dheap.cpp
+         test_graph.cpp
+     1>C:\Иван\Лаба!\Laba4\include\graphs.h(122): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+                 C:\Иван\Лаба!\Laba4\include\graphs.h(116): при компиляции функции-члена "void Graph<HType>::createGraph(HType,HType)" класса шаблон
+                 with
+                 [
+                     HType=int
+                 ]
+                 ..\..\test\test_graph.cpp(24): см. ссылку на создание экземпляров функции шаблон при компиляции "void Graph<HType>::createGraph(HType,HType)"
+                 with
+                 [
+                     HType=int
+                 ]
+                 ..\..\test\test_graph.cpp(5): см. ссылку на создание экземпляров класса шаблон при компиляции "Graph<HType>"
+                 with
+                 [
+                     HType=int
+                 ]
+         test_main.cpp
+         test_queue.cpp
+         test_set.cpp
+         test_table.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\tests.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Иван\Лаба!\Laba4\sln\Release\tests.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\Laba4\sln\Release\tests.lib" /MACHINE:X86 /SAFESEH Release\test_bintree.obj
+         Release\test_dheap.obj
+         Release\test_graph.obj
+         Release\test_main.obj
+         Release\test_queue.obj
+         Release\test_set.obj
+         Release\test_table.obj
+         "C:\Иван\Лаба!\Laba4\sln\gtest\Release\gtest-all.obj"
+         Создание кода
+         Создание кода завершено
+         tests.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\tests.exe
+       FinalizeBuildStatus:
+         Файл "Release\tests.unsuccessfulbuild" удаляется.
+         Обращение к "Release\tests.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\tests\tests.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:11.21
