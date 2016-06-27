@@ -243,12 +243,12 @@ void DHeap<HType>::vyvod()
 		level++;
 	}
 	int k=1, z=0;
-	cout << "\t" << keys[0]->pr << endl;
+	cout << " "<< keys[0]->pr << "  ";
 	for (int i = 1; i < level;i++)
 	{
 		for (int j = k; (j<k+pow(d,i)) && (j < kolvo); j++)
-			cout << keys[j]->pr << "\t";
-		cout << endl;
+			cout << keys[j]->pr << "  ";
+		cout << "  ";
 		if (k + pow(d,i) > kolvo)
 				k = kolvo;
 			else k += pow(d,i);

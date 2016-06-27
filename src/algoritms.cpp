@@ -95,12 +95,13 @@ TType* Algoritm<TType>::deykstra (int s, TType *&P, Graph<TType>*& gr)
 		for (int j=0; j < n; j++) {
 			if (!gr->visit(j,vis) && graph[w][j] != -1 && (dist[w]+graph[w][j])<=dist[j]) 
 			{
+
 				P[j]=w;
 				dist[j]=dist[w]+graph[w][j];
 			}
 		}
 	}
-
+	P[s]=-1;
 	dist[s] = 0;
 	return dist;
 }

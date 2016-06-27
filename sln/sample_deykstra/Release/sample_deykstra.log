@@ -1,54 +1,52 @@
-﻿Построение начато 27.05.2016 6:27:32.
-     1>Проект "C:\Иван\Лаба!\Laba4\sln\sample_deykstra\sample_deykstra.vcxproj" в узле 2 (целевые объекты Build).
-     1>InitializeBuildStatus:
-         Создание "Release\sample_deykstra.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\samples\deykstra.cpp
+﻿Build started 27.06.2016 15:29:08.
+     1>Project "C:\Temp\Laba4\sln\sample_deykstra\sample_deykstra.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\samples\deykstra.cpp
          deykstra.cpp
-     1>c:\иван\лаба!\laba4\include\graphs.h(122): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-                 c:\иван\лаба!\laba4\include\graphs.h(116): при компиляции функции-члена "void Graph<HType>::createGraph(HType,HType)" класса шаблон
+     1>..\..\samples\deykstra.cpp(53): warning C4244: '=' : conversion from 'int' to 'typ', possible loss of data
+     1>c:\temp\laba4\include\graphs.h(122): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+                 c:\temp\laba4\include\graphs.h(116) : while compiling class template member function 'void Graph<HType>::createGraph(HType,HType)'
                  with
                  [
                      HType=typ
                  ]
-                 ..\..\samples\deykstra.cpp(27): см. ссылку на создание экземпляров функции шаблон при компиляции "void Graph<HType>::createGraph(HType,HType)"
+                 ..\..\samples\deykstra.cpp(31) : see reference to function template instantiation 'void Graph<HType>::createGraph(HType,HType)' being compiled
                  with
                  [
                      HType=typ
                  ]
-                 ..\..\samples\deykstra.cpp(18): см. ссылку на создание экземпляров класса шаблон при компиляции "Graph<HType>"
+                 ..\..\samples\deykstra.cpp(18) : see reference to class template instantiation 'Graph<HType>' being compiled
                  with
                  [
                      HType=typ
                  ]
-     1>C:\Иван\Лаба!\Laba4\src\algoritms.cpp(74): warning C4101: pyt: неиспользованная локальная переменная
-                 C:\Иван\Лаба!\Laba4\src\algoritms.cpp(45): при компиляции функции-члена "typ *Algoritm<TType>::deykstra(int,TType *&,Graph<HType> *&)" класса шаблон
-                 with
-                 [
-                     TType=typ,
-                     HType=typ
-                 ]
-                 ..\..\samples\deykstra.cpp(37): см. ссылку на создание экземпляров функции шаблон при компиляции "typ *Algoritm<TType>::deykstra(int,TType *&,Graph<HType> *&)"
+     1>C:\Temp\Laba4\src\algoritms.cpp(90): warning C4244: '=' : conversion from 'typ' to 'int', possible loss of data
+                 C:\Temp\Laba4\src\algoritms.cpp(45) : while compiling class template member function 'typ *Algoritm<TType>::deykstra(int,TType *&,Graph<HType> *&)'
                  with
                  [
                      TType=typ,
                      HType=typ
                  ]
-                 ..\..\samples\deykstra.cpp(37): см. ссылку на создание экземпляров класса шаблон при компиляции "Algoritm<TType>"
+                 ..\..\samples\deykstra.cpp(55) : see reference to function template instantiation 'typ *Algoritm<TType>::deykstra(int,TType *&,Graph<HType> *&)' being compiled
+                 with
+                 [
+                     TType=typ,
+                     HType=typ
+                 ]
+                 ..\..\samples\deykstra.cpp(55) : see reference to class template instantiation 'Algoritm<TType>' being compiled
                  with
                  [
                      TType=typ
                  ]
+     1>C:\Temp\Laba4\src\algoritms.cpp(99): warning C4244: '=' : conversion from 'int' to 'typ', possible loss of data
+     1>C:\Temp\Laba4\src\algoritms.cpp(74): warning C4101: 'pyt' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\sample_deykstra.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_deykstra.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\Laba4\sln\Release\sample_deykstra.lib" /MACHINE:X86 /SAFESEH Release\deykstra.obj
-         Создание кода
-         Создание кода завершено
-         sample_deykstra.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\sample_deykstra.exe
-       FinalizeBuildStatus:
-         Файл "Release\sample_deykstra.unsuccessfulbuild" удаляется.
-         Обращение к "Release\sample_deykstra.lastbuildstate".
-     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\sample_deykstra\sample_deykstra.vcxproj" завершено (целевые объекты Build).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Temp\Laba4\sln\Release\sample_deykstra.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Temp\Laba4\sln\Release\sample_deykstra.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Temp\Laba4\sln\Release\sample_deykstra.lib" /MACHINE:X86 /SAFESEH Release\deykstra.obj
+         Generating code
+         Finished generating code
+         sample_deykstra.vcxproj -> C:\Temp\Laba4\sln\Release\sample_deykstra.exe
+     1>Done Building Project "C:\Temp\Laba4\sln\sample_deykstra\sample_deykstra.vcxproj" (Build target(s)).
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:00.89
+Time Elapsed 00:00:00.99

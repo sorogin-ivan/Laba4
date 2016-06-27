@@ -1,12 +1,5 @@
-﻿Построение начато 27.05.2016 6:11:51.
-     1>Проект "C:\Иван\Лаба!\Laba4\sln\d_heap\d_heap.vcxproj" в узле 5 (целевые объекты Build).
-     1>InitializeBuildStatus:
-         Создание "Release\d_heap.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       FinalizeBuildStatus:
-         Файл "Release\d_heap.unsuccessfulbuild" удаляется.
-         Обращение к "Release\d_heap.lastbuildstate".
-     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\d_heap\d_heap.vcxproj" завершено (целевые объекты Build).
+﻿Build started 27.06.2016 15:05:45.
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:00.03
+Time Elapsed 00:00:00.07

@@ -1,12 +1,5 @@
-﻿Построение начато 27.05.2016 6:11:51.
-     1>Проект "C:\Иван\Лаба!\Laba4\sln\sets\sets.vcxproj" в узле 3 (целевые объекты Build).
-     1>InitializeBuildStatus:
-         Создание "Release\sets.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       FinalizeBuildStatus:
-         Файл "Release\sets.unsuccessfulbuild" удаляется.
-         Обращение к "Release\sets.lastbuildstate".
-     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\sets\sets.vcxproj" завершено (целевые объекты Build).
+﻿Build started 27.06.2016 15:05:45.
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:00.02
+Time Elapsed 00:00:00.01

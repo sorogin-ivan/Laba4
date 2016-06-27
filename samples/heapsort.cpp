@@ -22,7 +22,8 @@ void main ()
 	system("cls");
 	cout << "Изначально куча выглядит таким образом: " << endl;
 	heap->vyvod();
-
+	cout<<endl;
+	cout<<endl;
 	cout << "После сортировки уже вот так: " << endl;
 	heap->okych();
 	heap->Sort();

@@ -25,7 +25,7 @@ void main ()
 	Graph<typ> *graph = new Graph<typ> (n,m);
 		
 	int l;
-	cout << "Будем генерировать граф случайным образом (1), вручную (2) или читать с файла (3)?" << endl;
+	cout << "Будем генерировать граф случайным образом (1) или вручную (2)?" << endl;
 	cin >> l;
 	switch (l)
 		{
@@ -52,24 +52,7 @@ void main ()
 		}
 		break;	
 		}
-	case 3:
-		{
-			myfile = fopen ("C:\\file.txt", "r");
-			int a = 0, b = 0 ,i = 0, tmp1 = 0, tmp2 = 0;
-			typ c = 0;
-			while (i < m)
-			{
-				fscanf (myfile, "%d%d%f\n", &a, &b, &c);
-				if ((tmp1 == a) && (tmp2 == b))
-					break;
-				tmp1 = a;
-				tmp2 = b;
-				graph->addEdge (a,b,c);
-				i++;
-			}
-			fclose(myfile);
-		}
-		break;
+
 	}
 	
 	system ("cls");

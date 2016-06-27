@@ -1,20 +1,9 @@
-﻿Построение начато 27.05.2016 6:11:51.
-     1>Проект "C:\Иван\Лаба!\Laba4\sln\gtest\gtest.vcxproj" в узле 4 (целевые объекты Build).
-     1>PrepareForBuild:
-         Создание каталога "C:\Иван\Лаба!\Laba4\sln\Release\".
-       InitializeBuildStatus:
-         Создание "Release\gtest.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\gtest\gtest-all.cc"
-         gtest-all.cc
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Иван\Лаба!\Laba4\sln\Release\gtest.lib" /NOLOGO /LTCG "Release\gtest-all.obj"
-         gtest.vcxproj -> C:\Иван\Лаба!\Laba4\sln\Release\gtest.lib
-       FinalizeBuildStatus:
-         Файл "Release\gtest.unsuccessfulbuild" удаляется.
-         Обращение к "Release\gtest.lastbuildstate".
-     1>Построение проекта "C:\Иван\Лаба!\Laba4\sln\gtest\gtest.vcxproj" завершено (целевые объекты Build).
+﻿Build started 27.06.2016 15:10:11.
+     1>Project "C:\Temp\Laba4\sln\gtest\gtest.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         gtest.vcxproj -> C:\Temp\Laba4\sln\Release\gtest.lib
+     1>Done Building Project "C:\Temp\Laba4\sln\gtest\gtest.vcxproj" (Build target(s)).
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:05.53
+Time Elapsed 00:00:00.03
